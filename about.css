@@ -1,0 +1,19 @@
+h2 {
+    text-align: center;
+
+}
+
+p {
+  text-align: justify;
+  font-size: 28px;
+  padding: 28px 100px;
+}
+
+
+
+@media (max-width: 600px) {
+  p {
+    font-size: 20px; /* размер текста для телефонов */
+    padding: 15px 30px; /* отступы для телефонов */
+  }
+}

@@ -1,0 +1,70 @@
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+/* Стили для основного контента */
+main {
+	margin: 20px;
+}
+
+.btn-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+body {
+  text-align: center;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+a {
+	display: inline-block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	transition: background-color 0.2s;
+
+}
+
+.btn-raspisanie {
+	background-color: #DB4437;
+	margin: 10px;
+}
+
+.btn-rsue {
+	background-color: #3a6fe0;
+	margin: 10px;
+}
+
+.btn-tour {
+	background-color: #24292E;
+	margin: 10px;
+}
+
+.btn-moodle {
+	background-color: #F48024;
+	margin: 10px;
+}
+
+.btn-library {
+	background-color: #00AB6C;
+	margin: 10px;
+}
+
+a:hover {
+	opacity: 0.8;
+}
+
+/* Стили для футера */
+footer {
+	background-color: #e5e5e5;
+	color: #000000;
+	padding: 10px;
+	text-align: center;
+}
+
